@@ -2,8 +2,8 @@
     "name": "simple-arthas-tool",
     "displayName": "Simple Arthas Tool",
     "icon": "images/icon.png",
-    "description": "根据当前的Java字段，生成对应的Arthas命令并复制到剪切板",
-    "version": "1.0.2",
+    "description": "根据当前的Java元素，生成Arthas命令并复制到剪切板",
+    "version": "1.0.3",
     "publisher": "hanfang",
     "author": {
         "name": "hanfang"
@@ -49,11 +49,11 @@
             },
             {
                 "command": "simple-arthas-tool.sc",
-                "title": "Arthas Search-Class"
+                "title": "Arthas Search-Class sc"
             },
             {
                 "command": "simple-arthas-tool.jad",
-                "title": "Arthas Decompile"
+                "title": "Arthas Decompile jad"
             },
             {
                 "command": "simple-arthas-tool.stack",
@@ -94,7 +94,7 @@
         "submenus": [
             {
                 "id": "simple-arthas-tool.arthasSubmenu",
-                "label": "Arthas 工具"
+                "label": "Simple Arthas Tool"
             }
         ]
     },

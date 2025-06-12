@@ -43,7 +43,11 @@ watch java.lang.String startsWith '{params, returnObj}' -x 3
 
 ## 版本历史
 
-### 1.0.0
+### 1.0.2
+
+修改提示文本
+
+### 1.0.1
 
 修复了构造函数watch的问题
 

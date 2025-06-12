@@ -3,7 +3,7 @@
     "displayName": "Simple Arthas Tool",
     "icon": "images/icon.png",
     "description": "根据当前的Java字段，生成对应的Arthas命令并复制到剪切板",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "publisher": "hanfang",
     "author": {
         "name": "hanfang"
@@ -16,11 +16,15 @@
         "url": "https://github.com/hfun2017/simple-arthas-tool"
     },
     "engines": {
-        "vscode": "^1.33.0"
+        "vscode": "^1.50.0"
     },
+    "tags": [
+	"arthas",
+	"java"
+    ],
     "categories": [
         "Other",
-        "Debuggers"
+	"Debuggers"
     ],
     "keywords": [
         "arthas",
@@ -102,10 +106,9 @@
     },
     "devDependencies": {
         "@types/node": "^14.14.10",
-        "@types/vscode": "^1.100.0",
+        "@types/vscode": "^1.50.0",
         "@typescript-eslint/eslint-plugin": "^3.0.2",
         "@typescript-eslint/parser": "^3.0.2",
-        "@vscode/vsce": "^3.5.0",
         "eslint": "^7.1.0",
         "typescript": "^4.0.2"
     }

@@ -45,4 +45,8 @@ watch java.lang.String startsWith '{params, returnObj}' -x 3
 
 ### 1.0.0
 
+修复了构造函数watch的问题
+
+### 1.0.0
+
 初始版本，支持生成watch、trace和sc命令
